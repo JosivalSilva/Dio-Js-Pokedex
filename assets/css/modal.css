@@ -21,6 +21,11 @@
   text-align: center;
 }
 
+.color-content {
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
 .modal-name {
   color: #809080;
   margin-bottom: .25rem;
@@ -46,7 +51,7 @@
   display: flex;
   flex-direction: column;
   list-style: none;
-  color: #809080;
+  color: #fff;
   text-transform: capitalize;
   padding: 0;
 }

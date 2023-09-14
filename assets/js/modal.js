@@ -46,11 +46,11 @@ function getPokemon(id) {
 
 function showDetailPokemonPicked(data) {
   const newHtml = `
-    <div class="modal-detail-name ">
+    <div class="modal-detail-name">
       <span class="modal-name">${data.name}</span>
       <span class="modal-id">#0${data.id}</span>
     </div>
-    <div>
+    <div class= "color-content ${data.types[0].type.name}">
       <ol class="modal-characters">
         <li class="modal-detail"> <img src= ${data.sprites.other.dream_world.front_default}
           alt=${data.name}></li>
